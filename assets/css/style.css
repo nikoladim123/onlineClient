@@ -468,14 +468,27 @@ span {}
     border-radius: 0vw;
 }
 
+.onlinePaulPContainer{
+  /* border: 3px solid green; */
+  position: relative;
+  margin-top: 7vw;
+  height: 16vw;
+  overflow: hidden;
+}
+.onlinePaulContainerInside{
+  position: relative;
+  /* border: 2px solid black; */
+  transition: 0.5s ease;
+  top: -15vw;
+}
 .OnlinePaulP{
   text-align: justify;
   font-family: 'Roboto-Regular',serif;
   font-size: 2.3vw;
   color: rgb(89,87,89);
-  margin-top: 10vw;
   margin-left: 1vw;
   width: 87%;
+  margin-top: 2vw;
 }
 
 .paulRozelSig{

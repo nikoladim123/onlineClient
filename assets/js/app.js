@@ -28,6 +28,30 @@ function divInsideButtonOff() {
   divInsideButton.style.width = '0%';
 }
 
+
+// Paul Rozzelee text carousel
+var onlinePaulContainerInside = document.getElementsByClassName('onlinePaulContainerInside');
+var littleSquare = document.getElementsByClassName('littleSquare');
+littleSquare[0].addEventListener('click',(e)=>{
+  onlinePaulContainerInside[0].style.top = '0vw'
+  littleSquareClear(e);
+});
+littleSquare[1].addEventListener('click',(e)=>{
+  onlinePaulContainerInside[0].style.top = '-15vw'
+  littleSquareClear(e);
+});
+littleSquare[2].addEventListener('click',(e)=>{
+  onlinePaulContainerInside[0].style.top = '-30vw'
+  littleSquareClear(e);
+});
+
+function littleSquareClear(e) {
+  for (var i = 0; i < littleSquare.length; i++) {
+    littleSquare[i].style.background = 'black';
+  }
+  e.target.style.background = 'white';
+}
+
 window.onload = function(){
 
 }
