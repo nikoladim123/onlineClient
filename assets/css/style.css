@@ -67,7 +67,7 @@ header{
 .banerShadow{
   width: 85vw;
   height: 10vw;
-  background: red;
+  /* background: red; */
   position: absolute;
   /* z-index: 2; */
   left: 7.5vw;
