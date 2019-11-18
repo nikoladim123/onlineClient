@@ -371,11 +371,12 @@ span {}
   background: black;
   height: 22.869vw;
   padding: 0.1px;
+  color: #7c6ef4;
 }
 
 .success h2{
+  transition: 1s ease;
   font-family: 'RobotoSlab-Thin',serif;
-  color: #db3723;
   text-align: center;
   font-size: 13.8vw;
   margin: 0;
@@ -386,7 +387,7 @@ span {}
 .success h2 span{
   font-size: 4.3vw;
   margin-left: -3vw;
-  color: #db3723;
+  /* color: #db3723; */
 }
 
 .blackTriangle {
