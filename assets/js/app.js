@@ -30,19 +30,19 @@ function divInsideButtonOff() {
 
 
 // Paul Rozzelee text carousel
-var onlinePaulContainerInside = document.getElementsByClassName('onlinePaulContainerInside');
+var paulRozzeelleContainer = document.getElementsByClassName('paulRozzeelleContainer');
 var littleSquare = document.getElementsByClassName('littleSquare');
 littleSquare[0].addEventListener('click',(e)=>{
-  onlinePaulContainerInside[0].style.top = '0vw'
   littleSquareClear(e);
+  paulRozzeelleContainer[0].style.marginLeft = '0%'
 });
 littleSquare[1].addEventListener('click',(e)=>{
-  onlinePaulContainerInside[0].style.top = '-15vw'
   littleSquareClear(e);
+  paulRozzeelleContainer[0].style.marginLeft = '-100%'
 });
 littleSquare[2].addEventListener('click',(e)=>{
-  onlinePaulContainerInside[0].style.top = '-30vw'
   littleSquareClear(e);
+  paulRozzeelleContainer[0].style.marginLeft = '-200%'
 });
 
 function littleSquareClear(e) {

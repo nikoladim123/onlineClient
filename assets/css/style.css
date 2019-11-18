@@ -401,7 +401,16 @@ span {}
 }
 
 /* paulRozzeelleContainer */
+.paulRozzSection{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
 .paulRozzeelleContainer{
+  width: 100%;
+  flex-shrink: 0;
+  transition: 1s ease;
   position: relative;
   padding: 0.1px;
   height: 43.671vw;
@@ -425,6 +434,9 @@ span {}
   width: 78.274vw;
   color: white;
   margin-left: 4.833vw;
+  border: none;
+  height: 1px;
+  background: white;
 }
 
 .headBaseBall{
@@ -468,23 +480,23 @@ span {}
     border-radius: 0vw;
 }
 
-.onlinePaulPContainer{
-  /* border: 3px solid green; */
+/* .onlinePaulPContainer{
+  border: 3px solid green;
   position: relative;
   margin-top: 7vw;
   height: 16vw;
   overflow: hidden;
-}
-.onlinePaulContainerInside{
+} */
+/* .onlinePaulContainerInside{
   position: relative;
-  /* border: 2px solid black; */
+  border: 2px solid black;
   transition: 0.5s ease;
   top: -15vw;
-}
+} */
 .OnlinePaulP{
   text-align: justify;
   font-family: 'Roboto-Regular',serif;
-  font-size: 2.3vw;
+  font-size: 2.05vw;
   color: rgb(89,87,89);
   margin-left: 1vw;
   width: 87%;
@@ -495,6 +507,8 @@ span {}
   margin-left: 1vw;
   font-family: 'Roboto-Light',serif;
   font-size: 1.6vw;
+  position: absolute;
+  bottom: 0;
 }
 
 .squaresSelect{
