@@ -50,11 +50,17 @@ littleSquare[2].addEventListener('click',(e)=>{
   success[0].style.color = '#db3723';
 });
 
-function littleSquareClear(e) {
+function littleSquareClear(e,ev) {
   for (var i = 0; i < littleSquare.length; i++) {
     littleSquare[i].style.background = 'black';
   }
-  e.target.style.background = 'white';
+  if(e !== null){
+    e.target.style.background = 'white';
+  }else{
+    ev.style.background = 'white';
+  }
+  // ev.style.background = 'white';
+  // console.log(ev);
 };
 
 // text car autoscroll
@@ -62,15 +68,19 @@ var textCarInterval = 0;
 setInterval(function () {
   if(textCarInterval === 0){
     paulRozzeelleContainer[0].style.marginLeft = '0%'
+    littleSquareClear(null,littleSquare[textCarInterval]);
     textCarInterval = 1;
   }else if(textCarInterval === 1){
     paulRozzeelleContainer[0].style.marginLeft = '-100%'
+    littleSquareClear(null,littleSquare[textCarInterval]);
     textCarInterval = 2;
   }else{
     paulRozzeelleContainer[0].style.marginLeft = '-200%'
+    littleSquareClear(null,littleSquare[textCarInterval]);
     textCarInterval = 0;
   }
 }, 6000);
+
 
 window.onload = function(){
 
