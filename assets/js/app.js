@@ -55,7 +55,22 @@ function littleSquareClear(e) {
     littleSquare[i].style.background = 'black';
   }
   e.target.style.background = 'white';
-}
+};
+
+// text car autoscroll
+var textCarInterval = 0;
+setInterval(function () {
+  if(textCarInterval === 0){
+    paulRozzeelleContainer[0].style.marginLeft = '0%'
+    textCarInterval = 1;
+  }else if(textCarInterval === 1){
+    paulRozzeelleContainer[0].style.marginLeft = '-100%'
+    textCarInterval = 2;
+  }else{
+    paulRozzeelleContainer[0].style.marginLeft = '-200%'
+    textCarInterval = 0;
+  }
+}, 6000);
 
 window.onload = function(){
 
