@@ -83,15 +83,18 @@ function littleSquareClear(e,ev) {
 var textCarInterval = 0;
 setInterval(function () {
   if(textCarInterval === 0){
-    paulRozzeelleContainer[0].style.marginLeft = '0%'
+    paulRozzeelleContainer[0].style.marginLeft = '0%';
+    success[0].style.color = 'rgb(255, 222, 0)';
     littleSquareClear(null,littleSquare[textCarInterval]);
     textCarInterval = 1;
   }else if(textCarInterval === 1){
-    paulRozzeelleContainer[0].style.marginLeft = '-100%'
+    paulRozzeelleContainer[0].style.marginLeft = '-100%';
+    success[0].style.color = '#7c6ef4';
     littleSquareClear(null,littleSquare[textCarInterval]);
     textCarInterval = 2;
   }else{
-    paulRozzeelleContainer[0].style.marginLeft = '-200%'
+    paulRozzeelleContainer[0].style.marginLeft = '-200%';
+    success[0].style.color = '#db3723';
     littleSquareClear(null,littleSquare[textCarInterval]);
     textCarInterval = 0;
   }
