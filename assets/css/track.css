@@ -1,0 +1,26 @@
+main{
+  background: #112c5a;
+}
+
+.sectionWatchVideo {
+  background: #112c5a;
+}
+
+.footerBottom{
+  background: #112c5a;
+}
+
+h1 {
+  color: #db961f;
+  font-size: 6.8426vw;
+  line-height: 0.37;
+  text-shadow: 1px 1px black;
+}
+
+.easyFreeWorksBox h2{
+  color: #db961f;
+}
+
+.easyFreeWorksBox p{
+  color: white;
+}
