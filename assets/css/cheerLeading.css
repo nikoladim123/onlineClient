@@ -1,0 +1,30 @@
+h1{
+  color: white;
+}
+
+.easyFreeWorksBox h2{
+  color: white;
+}
+
+.easyFreeWorksBox p{;
+  color: white
+}
+
+main{
+  background: #161858;
+}
+
+.floatingDiv p:nth-child(3){
+  color: #2a67a4;
+}
+
+.teamsWeHelped span{
+  color: #2a67a4;
+}
+
+.floatingDiv h2 span{
+  color: #2a67a4;
+}
+.footerBottom{
+  background: #161858;
+}
