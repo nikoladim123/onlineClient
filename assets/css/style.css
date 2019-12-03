@@ -93,7 +93,8 @@ header{
   position: absolute;
   left: -1px;
   top: 0;
-  width: 50vw;
+  /* width: 50vw; */
+  height: 101%;
 }
 
 .textBox{
