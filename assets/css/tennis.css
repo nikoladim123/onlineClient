@@ -1,0 +1,38 @@
+.headerBG{
+  height: 111%;
+}
+
+main {
+  background: #70a2c3
+}
+
+h1{
+  color: #e6e66b;
+}
+
+.easyFreeWorksBox h2{
+  color: #e6e66b;
+}
+
+.floatingDiv p:nth-child(3) {
+  color: #5dbfff;
+}
+
+.floatingDiv h2 span{
+  color: #5dbfff;
+}
+
+.teamsWeHelped span{
+  color: #5dbfff;
+}
+
+.getStartedNowParagraph{
+  color: #5dbfff;
+}
+.sectionWatchVideo{
+  background: #70a2c3;
+}
+
+.footerBottom{
+  background: #70a2c3;
+}
