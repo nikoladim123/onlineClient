@@ -86,19 +86,19 @@ main{
 }
 
 .sectionWatchVideo {
-    background: #aab44a;
+  background: #aab44a;
 }
 
 .footerBottom {
-    width: 100%;
-    height: 4.1vw;
-    margin-top: 3.88vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #aab44a;
-    position: relative;
-    top: -3px;
+  width: 100%;
+  height: 4.1vw;
+  margin-top: 3.88vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #aab44a;
+  position: relative;
+  top: -3px;
 }
 
 .logo{
