@@ -1,16 +1,35 @@
+@font-face {
+  font-family: 'collegiateHeavyOutline-Medium';
+  font-display: auto;
+  src: url('../fonts/collegiateHeavyOutline-Medium.ttf') format('truetype');
+}
+
 main{
   background: #384e94;
 }
 
+
 .easyFreeWorksBox h2{
   margin-top: 2.9vw;
   color: white;
+  font-family: 'collegiateHeavyOutline-Medium' !important;
+  font-weight: 100;
 }
 
 h1{
-  font-size: 6.8426vw;
+  font-size: 4.8426vw;
+  font-weight: 100;
   color: white;
+  font-family: 'collegiateHeavyOutline-Medium' !important;
 }
+
+h1 span{
+  font-size: 3.12445vw;
+  position: relative;
+  top: 1vw;
+}
+
+
 .easyFreeWorksBox p{
   color: white;
   line-height: 1.35;
@@ -22,8 +41,4 @@ h1{
 
 .footerBottom{
   background-color: #384e94;
-}
-
-.banerShadow{
-  top: 52vw;
 }
