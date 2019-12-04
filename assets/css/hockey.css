@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'PROMESH-Two';
+  font-display: auto;
+  src: url('../fonts/PROMESH-Two.ttf') format('truetype');
+}
+
+main{
+  background: #fd0c23;
+}
+
+.headerBG{
+  height: 110%;
+}
+
+.easyFreeWorksBox h2{
+  margin-top: 1.9vw;
+  color: #ff3649;
+  font-family: 'PROMESH-Two' !important;
+  font-weight: 100;
+}
+
+h1{
+  font-size: 4.84261vw;
+  font-weight: 100;
+  color: #ff3649;
+  font-family: 'PROMESH-Two' !important;
+}
+
+h1 span{
+  font-size: 2.324vw;
+  position: relative;
+  top: 1vw;
+}
+
+.headerContent {
+  left: 2vw;
+}
+
+.hockeyTeamSpan{
+  color: white;
+}
+
+.getStartedNowParagraph{
+  font-family: 'PROMESH-Two' !important;
+  color: #358bff;
+}
+
+.easyFreeWorksBox p{
+  color: white;
+  line-height: 1.35;
+}
+
+.sectionWatchVideo{
+  background: #fd0c23;
+}
+
+.floatingDiv p:nth-child(3){
+  font-family: 'PROMESH-Two' ;
+  line-height: normal;
+  color: #ff0c23;
+}
+.floatingDiv h2 span{
+  font-family: 'PROMESH-Two' ;
+  color: #ff0c23;
+}
+
+.sectionHighSchoolAndTeams h2{
+  font-family: 'PROMESH-Two' ;
+}
+
+.teamsWeHelped span{
+  color: #fd0c23
+}
+
+.footerBottom{
+  background-color: #fd0c23;
+}
