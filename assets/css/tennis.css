@@ -46,6 +46,10 @@ h1 span {
   color: #5dbfff;
 }
 
+.floatingDiv p:nth-child(3){
+  font-family: 'Sports-World-Regular' !important;
+}
+
 .getStartedNowParagraph{
   color: #5dbfff;
 }

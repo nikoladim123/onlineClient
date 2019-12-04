@@ -39,6 +39,10 @@ h1 span{
   background: white;
 }
 
+.floatingDiv p:nth-child(3){
+  font-family: 'collegiateHeavyOutline-Medium' !important;
+}
+
 .footerBottom{
   background-color: #384e94;
 }
