@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'OstrichSans-Medium';
+  font-display: auto;
+  src: url('../fonts/OstrichSans-Medium.otf') format('truetype');
+}
+.logo{
+  margin-left: 5.71186vw;
+}
+.getStartedNowParagraph{
+  font-family: 'OstrichSans-Medium';
+  font-weight: 100;
+}
+
+.textBox {
+  position: relative;
+  left: 3vw;
+}
+
+.headerBG{
+  transition-delay: 1s;
+  height: 111%;
+  transition: 1.7s ease;
+  height: 101%;
+  transform: scaleX(15.5);
+}
+
+main {
+  background: #ffe500;
+}
+
+h1{
+  color: #ffe500;
+  font-family: 'OstrichSans-Medium' !important;
+  font-weight: 800;
+  font-size: 7.26392vw;
+}
+
+h1 span {
+  font-size: 2.9vw;
+}
+
+.easyFreeWorksBox h2{
+  color: #ffe500;
+  font-family: 'OstrichSans-Medium';
+  /* font-weight: 100; */
+}
+.easyFreeWorksBox p{
+  color: white;
+}
+.floatingDiv p:nth-child(3) {
+  color: #eecc10;
+  font-weight: 900;
+}
+
+.floatingDiv h2 span{
+  color: #edc900;
+  font-family: 'OstrichSans-Medium' !important;
+  font-weight: 900;
+}
+
+.teamsWeHelped span{
+  color: #edc900;
+}
+
+.floatingDiv p:nth-child(3){
+  font-family: 'OstrichSans-Medium' !important;
+}
+
+.getStartedNowParagraph{
+  color: #ffb971;
+}
+.sectionWatchVideo{
+  background: #ffe500;
+}
+
+.watchVideoContainer button{
+  background: #e01f13;
+}
+
+.footerBottom{
+  background: #ffe500;
+}
