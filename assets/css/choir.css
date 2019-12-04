@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'PROMESH-Two';
+  font-display: auto;
+  src: url('../fonts/PROMESH-Two.ttf') format('truetype');
+}
+
+main{
+  background: #5949ab;
+}
+
+.headerBG{
+  height: 110%;
+}
+
+.easyFreeWorksBox h2{
+  margin-top: 1.9vw;
+  color: white;
+  font-weight: 100;
+  font-family: arial !important;
+}
+
+h1{
+  font-size: 4.84261vw;
+  font-weight: 100;
+  color: white;
+  font-family: arial !important;
+}
+
+h1 span{
+  font-size: 2.324vw;
+  position: relative;
+  top: 1vw;
+}
+
+.headerContent {
+  left: 2vw;
+}
+
+.hockeyTeamSpan{
+  color: white;
+}
+
+.getStartedNowParagraph{
+  color: #358bff;
+  font-family: arial !important;
+}
+
+.easyFreeWorksBox p{
+  color: white;
+  line-height: 1.35;
+}
+
+.sectionWatchVideo{
+  background: #5949ab;
+}
+
+.floatingDiv p:nth-child(3){
+  line-height: normal;
+  color: #d8145f;
+  font-family: arial !important;
+}
+.floatingDiv h2 span{
+  color: #d8145f;
+  font-family: arial !important;
+}
+
+.sectionHighSchoolAndTeams h2{
+  font-family: arial !important;
+}
+
+.teamsWeHelped span{
+  color: #d8145f;
+}
+
+.footerBottom{
+  background-color: #5949ab;
+}
+
+.watchVideoContainer button {
+  background-color: #db2376;
+}
+
+
+.choirTwo{
+  transition: 3.5s ease;
+  transition-delay: 1s;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
