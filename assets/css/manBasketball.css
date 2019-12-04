@@ -82,3 +82,9 @@ h1 span {
 .footerBottom{
   background: #ffe500;
 }
+
+.sectionHighSchoolAndTeams h2 {
+  color: #edc900;
+  font-family: 'OstrichSans-Medium' !important;
+  font-size: 4vw;
+}
