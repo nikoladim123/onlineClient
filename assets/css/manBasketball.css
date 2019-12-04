@@ -67,7 +67,9 @@ h1 span {
 }
 
 .getStartedNowParagraph{
-  color: #ffb971;
+  color: #5c9aff;
+  font-size: 5.842vw;
+  font-weight: 900;
 }
 .sectionWatchVideo{
   background: #ffe500;
