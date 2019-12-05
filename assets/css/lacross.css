@@ -4,23 +4,22 @@
   src: url('../fonts/collegiateHeavyOutline-Medium.ttf') format('truetype');
 }
 
-main{
+main {
   background: #a66354;
 }
 
-
-.logo{
+.logo {
   margin-left: 5.31186vw;
 }
 
-.easyFreeWorksBox h2{
+.easyFreeWorksBox h2 {
   margin-top: 2.9vw;
   color: white;
   font-family: 'collegiateHeavyOutline-Medium' !important;
   font-weight: 100;
 }
 
-h1{
+h1 {
   font-size: 4.8426vw;
   font-weight: 100;
   color: white;
@@ -32,37 +31,41 @@ h1{
   margin-left: 3vw;
 }
 
-.getStartedNowParagraph{
+.getStartedNowParagraph {
   font-family: 'collegiateHeavyOutline-Medium' !important;
 }
 
-h1 span{
+h1 span {
   font-size: 3.12445vw;
   position: relative;
   top: 1vw;
 }
 
-
-.easyFreeWorksBox p{
+.easyFreeWorksBox p {
   color: white;
   line-height: 1.35;
 }
 
-.sectionWatchVideo{
+.sectionWatchVideo {
   background: #a66354;
 }
 
-.floatingDiv p:nth-child(3){
+.floatingDiv p:nth-child(3) {
   font-family: 'collegiateHeavyOutline-Medium' !important;
-  color: #3266a1;
+  /* color: #3266a1; */
 }
 
-.floatingDiv h2 span{
+.floatingDiv h2 span {
   color: #ef8223;
   font-family: 'collegiateHeavyOutline-Medium';
   font-weight: 100;
 }
 
-.footerBottom{
+.footerBottom {
   background-color: #a66354;
+}
+
+.sectionHighSchoolAndTeams h2 {
+  font-family: 'collegiateHeavyOutline-Medium';
+  font-weight: 100;
 }
