@@ -465,9 +465,10 @@
     peoplePicture.style.top = "0";
     peoplePicture.style.right = "0";
   }
-  window.addEventListener('load',()=>{
-    peoplePictureFun()
-  });
+  peoplePicture.onload = peoplePictureFun();
+  // window.addEventListener('load',()=>{
+  //   peoplePictureFun()
+  // });
   </script>
 </body>
 
