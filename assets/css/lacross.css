@@ -5,9 +5,13 @@
 }
 
 main{
-  background: #384e94;
+  background: #a66354;
 }
 
+
+.logo{
+  margin-left: 5.31186vw;
+}
 
 .easyFreeWorksBox h2{
   margin-top: 2.9vw;
@@ -21,21 +25,21 @@ h1{
   font-weight: 100;
   color: white;
   font-family: 'collegiateHeavyOutline-Medium' !important;
+  margin-top: 4vw;
+}
+
+.textBox {
+  margin-left: 3vw;
+}
+
+.getStartedNowParagraph{
+  font-family: 'collegiateHeavyOutline-Medium' !important;
 }
 
 h1 span{
   font-size: 3.12445vw;
   position: relative;
   top: 1vw;
-}
-
-.floatingDiv h2 span{
-  font-family: 'collegiateHeavyOutline-Medium';
-  font-weight: 100;
-}
-
-.getStartedNowParagraph{
-  font-family: 'collegiateHeavyOutline-Medium' !important;
 }
 
 
@@ -45,13 +49,20 @@ h1 span{
 }
 
 .sectionWatchVideo{
-  background: white;
+  background: #a66354;
 }
 
 .floatingDiv p:nth-child(3){
   font-family: 'collegiateHeavyOutline-Medium' !important;
+  color: #3266a1;
+}
+
+.floatingDiv h2 span{
+  color: #ef8223;
+  font-family: 'collegiateHeavyOutline-Medium';
+  font-weight: 100;
 }
 
 .footerBottom{
-  background-color: #384e94;
+  background-color: #a66354;
 }
